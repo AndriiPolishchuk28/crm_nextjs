@@ -13,7 +13,6 @@ export enum Status {
   Pending = 'pending',
   Suspended = 'suspended',
 }
-console.log(process.env.CRM_KEY);
 
 export function StatusLabel({ children, status, disabled }: StatusLabelProps) {
   return (
