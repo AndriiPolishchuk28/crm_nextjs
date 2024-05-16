@@ -1,5 +1,6 @@
 import { AddCompanyButton } from './components/add-company-button';
 import { ClientComponents } from './components/client-components';
+import MagicButton from './components/magic-button';
 import { ServerComponents } from './components/server-components';
 import { ServerComponentsCopy } from './components/server-components copy';
 
@@ -9,9 +10,10 @@ export default function Home() {
       <h1 className="text-xl">Home page</h1>
       <AddCompanyButton />
       <ServerComponents />
-      <ClientComponents>
+      {/* <ClientComponents>
         <ServerComponentsCopy />
-      </ClientComponents>
+      </ClientComponents> */}
+      <MagicButton />
     </main>
   );
 }

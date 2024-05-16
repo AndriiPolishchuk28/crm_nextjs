@@ -13,6 +13,7 @@ export type CompanyFieldValues = {
   category: string;
   date: string;
   description: string;
+  placeholder?: string;
 };
 
 const initialValues: CompanyFieldValues = {
