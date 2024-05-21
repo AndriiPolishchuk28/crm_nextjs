@@ -1,4 +1,4 @@
-import { AddCompanyButton } from './components/add-company-button';
+import AddCompanyButton from './components/add-company-button';
 import { ClientComponents } from './components/client-components';
 import MagicButton from './components/magic-button';
 import { ServerComponents } from './components/server-components';
